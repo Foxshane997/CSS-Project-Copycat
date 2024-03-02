@@ -1,0 +1,45 @@
+ body {
+    background-color: whitesmoke;
+ }
+
+ .container-fluid-1 {
+    color: white;
+    background-color: lightcoral;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ #sale-banner {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .container-fluid { 
+    background: lightgray;
+    height: 700px;
+}
+
+.container-fluid-3 {
+    background-color: lightpink;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin: ;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 5em;
+    margin-left: 5em;
+  }
+
+  .nav-item-2 {
+    color: white;
+  }
+  
