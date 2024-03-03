@@ -2,6 +2,21 @@
     background-color: whitesmoke;
  }
 
+ #sale-banner {
+   color: white;
+   text-decoration: none;
+}
+
+#sale-banner:hover  {
+  color: turquoise; 
+}
+
+.a-link{
+   color: white;
+   text-decoration: none;
+   margin-top: 4px;
+}
+
  .container-fluid-1 {
     color: white;
     background-color: lightcoral;
@@ -10,26 +25,28 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    
  }
 
- #sale-banner {
-    color: white;
-    text-decoration: none;
+ .a-link-1 {
+   text-decoration: none;
+   color: lightcoral;
  }
- 
- .container-fluid { 
+
+ .container-fluid-2 { 
     background: lightgray;
     height: 700px;
+    padding: 10px;
 }
 
-.container-fluid-3 {
+.container-fluid-3{
     background-color: lightpink;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    display: flex;
+    text-align: center;
     margin-top: 5px;
-    margin: ;
+    margin-bottom: 5px;
+    height: 300px;
 }
 
 .nav {
@@ -41,5 +58,24 @@
 
   .nav-item-2 {
     color: white;
+  }
+
+.learn-container {
+   background-color: plum;
+   display: inline-block;
+   text-align: center;
+   border: 1px solid plum;
+   border-radius: 5px;
+   width: 100px;
+   border-style: outset;
+} 
+
+.learn-more {
+   text-decoration: none;
+   color: white;
+  }
+
+  .learn-more:hover {
+   color: turquoise;
   }
   
