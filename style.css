@@ -36,6 +36,10 @@
     background: lightgray;
     height: 700px;
     padding: 10px;
+    background-image: url(./assets/Copy-Desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container-fluid-3{
@@ -79,3 +83,126 @@
    color: turquoise;
   }
   
+
+  .container-fluid-4 {
+   background-color: lightgray;
+   display: flex;
+   height: 600px;
+   justify-content: center; 
+   align-items: center;
+   /* flex-direction: row; */
+   margin-bottom: -110px;
+  }
+
+  .layout-items {
+   padding: 150px;
+   display: flexbox;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   background-color: darkgray;
+   height: 30em;
+   width: 30em;
+  }
+
+  .layout-items-2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-image: url(./assets/Desk-layout-img.jpg);
+   background-color: lightpink;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 30em;
+   width: 30em;
+  }
+
+  .container-fluid-5 {
+   background-color: lightgray;
+   display: flex;
+   height: 600px;
+   justify-content: center; 
+   align-items: center;
+   flex-direction: row;
+  }
+
+  .layout-items-5 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: lightpink;
+   background-image: url(./assets/desk-layout-img-2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 30em;
+   width: 30em;
+  }
+
+  .layout-items-2-5 {
+   padding: 150px;
+   display: flexbox;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   background-color: darkgray;
+   height: 30em;
+   width: 30em;
+  }
+
+  .shop-now-container {
+   display: inline-block;
+   background-color: plum;
+   display: inline-block;
+   text-align: center;
+   border: 1px solid plum;
+   border-radius: 5px;
+   width: 100px;
+   border-style: outset;
+  }
+
+  .shop-now-child {
+   text-decoration: none;
+   color: white;
+  }
+
+  .shop-now-child:hover {
+   color: turquoise;
+  }
+
+  .footer-content {
+   /* margin-top: -3.2em; */
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   background-color: lightpink;
+   height: 200px;
+  }
+
+  .un-list {
+   text-decoration: none;
+   list-style-type: none;
+  }
+
+  .footer-li {
+   color: white;
+   text-decoration: none;
+  }
+
+  .footer-li:hover {
+   color: lightskyblue;
+  }
+
+  .h2-foot {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   color: white;
+  }
+
+  .h2-foot:hover {
+   color: lightcoral;
+  }
